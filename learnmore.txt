@@ -1,0 +1,101 @@
+JS
+<script src="js/top-scroll.js"></script>
+
+
+HTML
+<div class="top-progress">
+        <div class="my-progress-bar">
+            <div class="filled-progress">
+
+            </div>
+        </div>
+    </div>
+
+
+
+CSS
+.top-progress {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        min-height: 2.4vh;
+        background-color: #E3F4F4;
+        z-index: 1000;
+        /* backdrop-filter: blur(100px); */
+    }
+
+    .my-progress-bar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        min-height: 1.7vh;
+        margin-bottom: 100px;
+        z-index: 1000;
+    }
+
+    .filled-progress {
+        position: absolute;
+        top: 1.3px;
+        width: 0%;
+        height: 100%;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #C4E0E5, #4CA1AF);
+        z-index: 1000;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Jobs/Filter : 
+
+<!-- <div class="col-md-3 ">
+                        <div class="box box-solid bg-[#DEEDF0] border-[0.2px] border-[#B7D3DF] rounded-xl">
+                            <div class="box-header  with-border">
+                                <h3 class="box-title text-gray-700 font-bold text-xs ">Filters</h3>
+                            </div>
+                            <div class="box-body  no-padding">
+                                <ul class="nav nav-pills  nav-stacked tree " data-widget="tree">
+                                    <li class="treeview menu-open ">
+                                        <a href="#" class=""><i class="fa fa-plane text-red "></i> City
+                                            <span class="pull-right"><i
+                                                    class="fa fa-angle-down pull-right"></i></span></a>
+                                        <ul class="treeview-menu ">
+                                            <li><a href="" class="citySearch" data-target="Bengaluru"><i
+                                                        class="fa fa-circle-o text-yellow"></i> Amravati</a></li>
+                                            <li><a href="" class="citySearch" data-target="Navi Mumbai"><i
+                                                        class="fa fa-circle-o text-yellow"></i> Nagpur</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="treeview menu-open">
+                                        <a href="#"><i class="fa fa-plane text-red"></i> Experience <span
+                                                class="pull-right"><i
+                                                    class="fa fa-angle-down pull-right"></i></span></a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="" class="experienceSearch" data-target='1'><i
+                                                        class="fa fa-circle-o text-yellow"></i> > 1 Years</a></li>
+                                            <li><a href="" class="experienceSearch" data-target='2'><i
+                                                        class="fa fa-circle-o text-yellow"></i> > 2 Years</a></li>
+                                            <li><a href="" class="experienceSearch" data-target='3'><i
+                                                        class="fa fa-circle-o text-yellow"></i> > 3 Years</a></li>
+                                            <li><a href="" class="experienceSearch" data-target='4'><i
+                                                        class="fa fa-circle-o text-yellow"></i> > 4 Years</a></li>
+                                            <li><a href="" class="experienceSearch" data-target='5'><i
+                                                        class="fa fa-circle-o text-yellow"></i> > 5 Years</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
