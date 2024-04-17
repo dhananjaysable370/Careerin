@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  list-style: none !important;
+  font-family: "Euclid Circular A" !important;
+}

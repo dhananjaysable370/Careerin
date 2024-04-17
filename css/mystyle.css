@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Spline+Sans:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box !important;
+  list-style: none !important;
+  font-family: "Euclid Circular A", Franklin Gothic Medium, Arial Narrow, Arial,
+    sans-serif !important;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #e3f4f4 !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-weight: 500 !important;
+}
+.opensans {
+  font-family: "Open sans" !important;
+}
+
+.custom-border {
+  border: 1px solid hsla(0, 0%, 100%, 0.05);
+}
+
+header {
+  background-color: #c4dfdf !important;
+}
+
+header {
+  width: 95% !important;
+  display: flex !important;
+  /* float: center !important; */
+  justify-content: space-between !important;
+  align-items: center !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 23px;
+
+  /* margin-left: 55px !important; */
+  /* margin-right: 63px !important; */
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  /* background: #121316 !important; */
+  /* background-blend-mode: multiply; */
+  /* background-color: hsla(0, 0%, 7%, 0) !important; */
+  /* padding: 15px 10px !important; */
+
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  padding-top: 1px !important;
+  padding-bottom: 5px !important;
+  backdrop-filter: blur(24px) !important;
+  border-radius: 3.5rem !important;
+}
+
+@media screen and (min-width: 1078px) {
+  header {
+    background-color: rgba(196, 223, 223, 0.8);
+    /* background-color: transparent #c4dfdf; */
+  }
+}
+
+.custom-width {
+  max-width: 108rem !important;
+}
+
+.custom-font {
+  font-size: 6rem !important;
+}
+
+.satoshi {
+  font-family: "Satoshi" !important;
+}
+
+/* Preloader */
+
+#preloader {
+  background: #c4dfdf url(img/loading-7528.gif) no-repeat center center !important;
+  background-size: 10%;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+}
+
+form input {
+  font-size: 16px !important;
+}
+
+form .selectcountry {
+  font-size: 16px !important;
+}
+
+select.input-lg {
+  height: 46px !important;
+  line-height: 25px !important;
+}
